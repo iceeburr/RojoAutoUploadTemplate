@@ -1,0 +1,22 @@
+name: Deploy to Staging
+
+on:
+  push:
+    branches:
+    - main
+
+jobs:
+
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - uses: ok-nick/setup-aftman@v0.3.0
+      name: Install aftman
+      with:
+          token: ${{ SECRETS.GITHUB_TOKEN }}
+
+    - run: rbxcloud experience publish -f game.rbxl -p ? -u ? -t published -a ${{ secrets.API_KEY }}

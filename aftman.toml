@@ -1,0 +1,5 @@
+[tools]
+stylua = "JohnnyMorganz/StyLua@0.18.0"
+selene = "Kampfkarren/selene@0.25.0"
+rojo = "rojo-rbx/rojo@7.3.0"
+rbxcloud = "Sleitnick/rbxcloud@0.5.0"
