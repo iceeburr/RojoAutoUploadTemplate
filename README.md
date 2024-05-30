@@ -1,3 +1,11 @@
+# PLEASE READ ⚠️
+This template is no longer maintained, outdated and I personally consider it bad practice. This repository will be deleted soon. <br>
+Please, use the new template at https://github.com/iceeburr/roblox-template <br>
+It is much better, will actually be maintained and used in real games. <br>
+If you see a label saying that it's not ready yet, that means I'm still in the process of finishing it. If you are still reading this, it's likely I haven't completed it yet. <br>
+Thank you for your patience. <br>
+A new dev forum post will be made as well.
+
 # Template For Auto Publishing
 Feel free to download the source of this repo to make it easier to set up your Roblox project.
 More details are in the Tutorial [here.](https://devforum.roblox.com/t/how-to-automate-place-publishing-with-partially-managed-rojo/2443196)
